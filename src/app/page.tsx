@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="rounded-xl border border-red-500 p-5">
       <h1>Hello world</h1>
       <Button>Click</Button>
       <Input placeholder="Bora fechar esse projeto!" />
